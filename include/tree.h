@@ -51,6 +51,7 @@ class Tree {
       ++i;
     }
   }
+
  public:
   std::string operator[](int j) const {
     if (j >= permut.size()) {
